@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.7.9)  15 JUL 2022 20:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.7.9)  15 JUL 2022 23:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1189,9 +1189,6 @@ Package pdftex.def Info: Definitions/logo-mdpi-eps-converted-to.pdf  used on inp
 Package array Warning: Column C is already defined on input line 205.
 
 
-Package array Warning: Column C is already defined on input line 220.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 16.18796pt, for example:
 (fancyhdr)                \setlength{\headheight}{16.18796pt}.
@@ -1199,6 +1196,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-4.18796pt}.
 
 [2]
+
+Package array Warning: Column C is already defined on input line 220.
+
 Package epstopdf Info: Source file: <Definitions/logo-mdpi.eps>
 (epstopdf)                    date: 2018-07-22 06:33:52
 (epstopdf)                    size: 736786 bytes
@@ -1212,7 +1212,6 @@ File: Definitions/logo-mdpi-eps-converted-to.pdf Graphic file (type pdf)
 <use Definitions/logo-mdpi-eps-converted-to.pdf>
 Package pdftex.def Info: Definitions/logo-mdpi-eps-converted-to.pdf  used on input line 284.
 (pdftex.def)             Requested size: 384.1122pt x 253.21382pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 16.18796pt, for example:
@@ -1234,6 +1233,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 363--363
  []
 
 
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 16.18796pt, for example:
+(fancyhdr)                \setlength{\headheight}{16.18796pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-4.18796pt}.
+
+[5]
+
 Package array Warning: Column C is already defined on input line 376.
 
 
@@ -1245,22 +1252,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-4.18796pt}.
 
-[5] (template.aux)
+[6] (template.aux)
 Package rerunfilecheck Info: File `template.out' has not changed.
 (rerunfilecheck)             Checksum: 8D2FEE0449A29BF5F7D7F5880CD613F0;1874.
  ) 
 Here is how much of TeX's memory you used:
- 31662 strings out of 478354
- 597683 string characters out of 2837119
- 924072 words of memory out of 3000000
+ 31663 strings out of 478354
+ 597689 string characters out of 2837119
+ 924167 words of memory out of 3000000
  49070 multiletter control sequences out of 15000+600000
  535712 words of font info for 350 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  123i,15n,120p,4409b,576s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\panos\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0500.pk>{C:/Users/panos/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/panos/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/panos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/panos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/panos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on template.pdf (5 pages, 179028 bytes).
+Output written on template.pdf (6 pages, 180619 bytes).
 PDF statistics:
- 191 PDF objects out of 1000 (max. 8388607)
- 39 named destinations out of 1000 (max. 500000)
+ 195 PDF objects out of 1000 (max. 8388607)
+ 40 named destinations out of 1000 (max. 500000)
  99476 words of extra memory for PDF output out of 106986 (max. 10000000)
 

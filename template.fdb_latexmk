@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1657905553 "c:/Users/panos/Documents/Διπλωματική/journal/MDPI_template/template.tex" "template.pdf" "template" 1657905558
+["pdflatex"] 1657915562 "c:/Users/panos/Documents/Διπλωματική/journal/MDPI_template/template.tex" "template.pdf" "template" 1657915567
   "C:/Users/panos/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1657895715 116366 2a4908485e2da1190aed4ebacf279728 ""
   "C:/Users/panos/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecss0500.pk" 1657895732 10824 38ec1a64493a188047d3e56e710a4218 ""
   "C:/Users/panos/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1657315882 10325998 166a1f58371dbae9025d615641b845a6 ""
@@ -240,11 +240,11 @@
   "Definitions/logo-mdpi.eps" 1532230432 736786 4711706bb26e06261526b11ff3bf4ccd ""
   "Definitions/logo-orcid.pdf" 1640022376 12671 39a20ba789123aa897c7efc569fb5270 ""
   "Definitions/mdpi.cls" 1657905547 51408 0c127a5f0717585bed25c87353100390 ""
-  "c:/Users/panos/Documents/Διπλωματική/journal/MDPI_template/template.tex" 1654776576 32110 73ac97ed21afc122079033cc6d529baf ""
+  "c:/Users/panos/Documents/Διπλωματική/journal/MDPI_template/template.tex" 1657915560 32205 821e6f00369a2e9b6c21903c223ad741 ""
   "ezgif.com-gif-maker (1).png" 1657895941 6693 cc25854ebb5f4b4be458c25ea5851490 ""
-  "template.aux" 1657905558 5176 3a9a08749669015961fc743f31f49968 "pdflatex"
-  "template.out" 1657905558 1874 8d2fee0449a29bf5f7d7f5880cd613f0 "pdflatex"
-  "template.tex" 1654776576 32110 73ac97ed21afc122079033cc6d529baf ""
+  "template.aux" 1657915566 5176 6b156a420838d136869c852287f7eb50 "pdflatex"
+  "template.out" 1657915566 1874 8d2fee0449a29bf5f7d7f5880cd613f0 "pdflatex"
+  "template.tex" 1657915560 32205 821e6f00369a2e9b6c21903c223ad741 ""
   (generated)
   "template.aux"
   "template.log"

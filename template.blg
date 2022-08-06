@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: template.aux
+Reallocating 'name_of_file' (item size: 1) to 17 items.
+The style file: Definitions/mdpi.bst
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+Database file #1: references.bib
+Warning--can't use both author and editor fields in frank2005weka
+You've used 21 entries,
+            2885 wiz_defined-function locations,
+            728 strings with 10106 characters,
+and the built_in function-call counts, 10030 in all, are:
+= -- 771
+> -- 871
+< -- 5
++ -- 374
+- -- 237
+* -- 966
+:= -- 1600
+add.period$ -- 79
+call.type$ -- 21
+change.case$ -- 21
+chr.to.int$ -- 21
+cite$ -- 22
+duplicate$ -- 400
+empty$ -- 652
+format.name$ -- 288
+if$ -- 2054
+int.to.chr$ -- 1
+int.to.str$ -- 21
+missing$ -- 22
+newline$ -- 124
+num.names$ -- 65
+pop$ -- 223
+preamble$ -- 0
+purify$ -- 21
+quote$ -- 0
+skip$ -- 303
+stack$ -- 0
+substring$ -- 282
+swap$ -- 92
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 144
+warning$ -- 1
+while$ -- 57
+width$ -- 0
+write$ -- 291
+(There was 1 warning)

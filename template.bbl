@@ -1,0 +1,172 @@
+\begin{thebibliography}{999}
+
+\bibitem[Lama \em{et~al.}(2021)Lama, Wilhelmsson, Norlander, Gustafsson, Lager,
+  Tynelius, Wärvik, and Östenson]{LAMA2021e07419}
+Lama, L.; Wilhelmsson, O.; Norlander, E.; Gustafsson, L.; Lager, A.; Tynelius,
+  P.; Wärvik, L.; Östenson, C.G.
+\newblock Machine learning for prediction of diabetes risk in middle-aged
+  Swedish people.
+\newblock {\em Heliyon} {\bf 2021}, {\em 7},~e07419.
+\newblock
+  {\url{https://doi.org/https://doi.org/10.1016/j.heliyon.2021.e07419}}.
+
+\bibitem[Kavakiotis \em{et~al.}(2017)Kavakiotis, Tsave, Salifoglou, Maglaveras,
+  Vlahavas, and Chouvarda]{KAVAKIOTIS2017104}
+Kavakiotis, I.; Tsave, O.; Salifoglou, A.; Maglaveras, N.; Vlahavas, I.;
+  Chouvarda, I.
+\newblock Machine Learning and Data Mining Methods in Diabetes Research.
+\newblock {\em Computational and Structural Biotechnology Journal} {\bf 2017},
+  {\em 15},~104--116.
+\newblock {\url{https://doi.org/https://doi.org/10.1016/j.csbj.2016.12.005}}.
+
+\bibitem[Kopitar \em{et~al.}(2020)Kopitar, Kocbek, Cilar, Sheikh, and
+  Stiglic]{kopitar2020early}
+Kopitar, L.; Kocbek, P.; Cilar, L.; Sheikh, A.; Stiglic, G.
+\newblock Early detection of type 2 diabetes mellitus using machine
+  learning-based prediction models.
+\newblock {\em Scientific reports} {\bf 2020}, {\em 10},~1--12.
+
+\bibitem[Howlader \em{et~al.}(2022)Howlader, Satu, Awal, Islam, Shariful~Islam,
+  Quinn, and Moni]{Howlader}
+Howlader, K.; Satu, M.; Awal, M.; Islam, M.; Shariful~Islam, S.M.; Quinn, J.;
+  Moni, M.A.
+\newblock Machine learning models for classification and identification of
+  significant attributes to detect type 2 diabetes.
+\newblock {\em Health Information Science and Systems} {\bf 2022}, {\em 10}.
+\newblock {\url{https://doi.org/10.1007/s13755-021-00168-2}}.
+
+\bibitem[Deberneh and Kim(2021)]{ijerph18063317}
+Deberneh, H.M.; Kim, I.
+\newblock Prediction of Type 2 Diabetes Based on Machine Learning Algorithm.
+\newblock {\em International Journal of Environmental Research and Public
+  Health} {\bf 2021}, {\em 18}.
+\newblock {\url{https://doi.org/10.3390/ijerph18063317}}.
+
+\bibitem[Lai \em{et~al.}(2019)Lai, Huang, Keshavjee, Guergachi, and Gao]{Lai}
+Lai, H.; Huang, H.; Keshavjee, K.; Guergachi, A.; Gao, X.
+\newblock Predictive models for diabetes mellitus using machine learning
+  techniques.
+\newblock {\em BMC Endocrine Disorders} {\bf 2019}, {\em 19}.
+\newblock {\url{https://doi.org/10.1186/s12902-019-0436-6}}.
+
+\bibitem[Fazakis \em{et~al.}(2021)Fazakis, Kocsis, Dritsas, Alexiou, Fakotakis,
+  and Moustakas]{fazakis}
+Fazakis, N.; Kocsis, O.; Dritsas, E.; Alexiou, S.; Fakotakis, N.; Moustakas, K.
+\newblock Machine Learning Tools for Long-Term Type 2 Diabetes Risk Prediction.
+\newblock {\em IEEE Access} {\bf 2021}, {\em 9},~103737--103757.
+\newblock {\url{https://doi.org/10.1109/ACCESS.2021.3098691}}.
+
+\bibitem[Zou \em{et~al.}(2018)Zou, Qu, Luo, Yin, Ju, and Tang]{Zou}
+Zou, Q.; Qu, K.; Luo, Y.; Yin, D.; Ju, Y.; Tang, H.
+\newblock Predicting Diabetes Mellitus With Machine Learning Techniques.
+\newblock {\em Frontiers in Genetics} {\bf 2018}, {\em 9}.
+\newblock {\url{https://doi.org/10.3389/fgene.2018.00515}}.
+
+\bibitem[De~Silva \em{et~al.}(2021)De~Silva, Lim, Mousa, Teede, Forbes, Demmer,
+  Jönsson, and Enticott]{DeSilva}
+De~Silva, K.; Lim, S.; Mousa, A.; Teede, H.; Forbes, A.; Demmer, R.T.;
+  Jönsson, D.; Enticott, J.
+\newblock Nutritional markers of undiagnosed type 2 diabetes in adults:
+  Findings of a machine learning analysis with external validation and
+  benchmarking.
+\newblock {\em PLOS ONE} {\bf 2021}, {\em 16},~1--21.
+\newblock {\url{https://doi.org/10.1371/journal.pone.0250832}}.
+
+\bibitem[Dinh \em{et~al.}(2019)Dinh, Miertschin, Young, and Mohanty]{Dinh}
+Dinh, A.; Miertschin, S.; Young, A.; Mohanty, S.
+\newblock A data-driven approach to predicting diabetes and cardiovascular
+  disease with machine learning.
+\newblock {\em BMC Medical Informatics and Decision Making} {\bf 2019}, {\em
+  19}.
+\newblock {\url{https://doi.org/10.1186/s12911-019-0918-5}}.
+
+\bibitem[Zhang \em{et~al.}(2020)Zhang, Wang, Niu, Wang, and Wang]{zhang}
+Zhang, L.; Wang, Y.; Niu, M.; Wang, C.; Wang, Z.
+\newblock Machine learning for characterizing risk of type 2 diabetes mellitus
+  in a rural Chinese population: the Henan Rural Cohort Study.
+\newblock {\em Scientific Reports} {\bf 2020}, {\em 10}.
+\newblock {\url{https://doi.org/10.1038/s41598-020-61123-x}}.
+
+\bibitem[Fregoso-Aparicio \em{et~al.}(2021)Fregoso-Aparicio, Noguez,
+  Montesinos, and García-García]{Fregoso}
+Fregoso-Aparicio, L.; Noguez, J.; Montesinos, L.; García-García, J.
+\newblock Machine learning and deep learning predictive models for type 2
+  diabetes: a systematic review.
+\newblock {\em Diabetology \& Metabolic Syndrome} {\bf 2021}, {\em 13}.
+\newblock {\url{https://doi.org/10.1186/s13098-021-00767-9}}.
+
+\bibitem[Xiong \em{et~al.}(2019)Xiong, Zhang, Bi, Zhou, Yu, and Zhu]{Xiong}
+Xiong, X.l.; Zhang, R.; Bi, Y.; Zhou, W.h.; Yu, Y.; Zhu, D.l.
+\newblock Machine Learning Models in Type 2 Diabetes Risk Prediction: Results
+  from a Cross-sectional Retrospective Study in Chinese Adults.
+\newblock {\em Current Medical Science} {\bf 2019}, {\em 39},~582--588.
+\newblock {\url{https://doi.org/10.1007/s11596-019-2077-4}}.
+
+\bibitem[Rufo \em{et~al.}(2021)Rufo, Debelee, Ibenthal, and Negera]{Rufo}
+Rufo, D.D.; Debelee, T.G.; Ibenthal, A.; Negera, W.G.
+\newblock Diagnosis of Diabetes Mellitus Using Gradient Boosting Machine
+  (LightGBM).
+\newblock {\em Diagnostics} {\bf 2021}, {\em 11}.
+\newblock {\url{https://doi.org/10.3390/diagnostics11091714}}.
+
+\bibitem[Morgan-Benita \em{et~al.}(2022)Morgan-Benita, Galván-Tejada, Cruz,
+  Galván-Tejada, Gamboa-Rosales, Arceo-Olague, Luna-García, and
+  Celaya-Padilla]{Benita}
+Morgan-Benita, J.A.; Galván-Tejada, C.E.; Cruz, M.; Galván-Tejada, J.I.;
+  Gamboa-Rosales, H.; Arceo-Olague, J.G.; Luna-García, H.; Celaya-Padilla,
+  J.M.
+\newblock Hard Voting Ensemble Approach for the Detection of Type 2 Diabetes in
+  Mexican Population with Non-Glucose Related Features.
+\newblock {\em Healthcare} {\bf 2022}, {\em 10}.
+\newblock {\url{https://doi.org/10.3390/healthcare10081362}}.
+
+\bibitem[Dritsas and Trigka(2022)]{Dritsas}
+Dritsas, E.; Trigka, M.
+\newblock Data-Driven Machine-Learning Methods for Diabetes Risk Prediction.
+\newblock {\em Sensors} {\bf 2022}, {\em 22}.
+\newblock {\url{https://doi.org/10.3390/s22145304}}.
+
+\bibitem[Frank \em{et~al.}(2005)Frank, Hall, Holmes, Kirkby, Pfahringer, and
+  Witten]{frank2005weka}
+Frank, E.; Hall, M.A.; Holmes, G.; Kirkby, R.; Pfahringer, B.; Witten, I.H.,
+  {Weka: A machine learning workbench for data mining.}
+\newblock In {\em Data Mining and Knowledge Discovery Handbook: A Complete
+  Guide for Practitioners and Researchers}; Maimon, O.; Rokach, L., Eds.;
+  Springer: Berlin,  2005; pp. 1305--1314.
+
+\bibitem[Pedregosa \em{et~al.}(2011)Pedregosa, Varoquaux, Gramfort, Michel,
+  Thirion, Grisel, Blondel, Prettenhofer, Weiss, Dubourg, Vanderplas, Passos,
+  Cournapeau, Brucher, Perrot, and Duchesnay]{scikit-learn}
+Pedregosa, F.; Varoquaux, G.; Gramfort, A.; Michel, V.; Thirion, B.; Grisel,
+  O.; Blondel, M.; Prettenhofer, P.; Weiss, R.; Dubourg, V.;  et~al.
+\newblock Scikit-learn: Machine Learning in {P}ython.
+\newblock {\em Journal of Machine Learning Research} {\bf 2011}, {\em
+  12},~2825--2830.
+
+\bibitem[Seabold and Perktold(2010)]{seabold2010statsmodels}
+Seabold, S.; Perktold, J.
+\newblock statsmodels: Econometric and statistical modeling with python.
+\newblock In Proceedings of the 9th Python in Science Conference,  2010.
+
+\bibitem[Gray \em{et~al.}(2010)Gray, Taub, Khunti, Gardiner, Hiles, Webb,
+  Srinivasan, and Davies]{gray}
+Gray, L.J.; Taub, N.A.; Khunti, K.; Gardiner, E.; Hiles, S.; Webb, D.R.;
+  Srinivasan, B.T.; Davies, M.J.
+\newblock The Leicester Risk Assessment score for detecting undiagnosed Type 2
+  diabetes and impaired glucose regulation for use in a multiethnic UK setting.
+\newblock {\em Diabetic Medicine} {\bf 2010}, {\em 27},~887--895,
+  \href{http://xxx.lanl.gov/abs/https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1464-5491.2010.03037.x}{{\normalfont
+  [https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1464-5491.2010.03037.x]}}.
+\newblock
+  {\url{https://doi.org/https://doi.org/10.1111/j.1464-5491.2010.03037.x}}.
+
+\bibitem[Lindstrom and Tuomilehto(2003)]{lindstrom}
+Lindstrom, J.; Tuomilehto, J.
+\newblock {The Diabetes Risk Score: A practical tool to predict type 2 diabetes
+  risk}.
+\newblock {\em Diabetes Care} {\bf 2003}, {\em 26},~725--731,
+  \href{http://xxx.lanl.gov/abs/https://diabetesjournals.org/care/article-pdf/26/3/725/665299/dc0303000725.pdf}{{\normalfont
+  [https://diabetesjournals.org/care/article-pdf/26/3/725/665299/dc0303000725.pdf]}}.
+\newblock {\url{https://doi.org/10.2337/diacare.26.3.725}}.
+
+\end{thebibliography}

@@ -2,7 +2,9 @@
 %  For support, please attach all files needed for compiling as well as the log file, and specify your operating system, LaTeX version, and LaTeX editor.
 
 %=================================================================
-\documentclass[journal,article,submit,pdftex,moreauthors]{Definitions/mdpi} 
+\documentclass[journal,article,submit,pdftex,moreauthors]{Definitions/mdpi}
+\renewcommand{\linenumbers}{}
+\usepackage{comment}
 % For posting an early version of this manuscript as a preprint, you may use "preprints" as the journal and change "submit" to "accept". The document class line would be, e.g., \documentclass[preprints,article,accept,moreauthors,pdftex]{mdpi}. This is especially recommended for submission to arXiv, where line numbers should be removed before posting. For preprints.org, the editorial staff will make this change immediately prior to posting.
 
 %--------------------
@@ -154,10 +156,56 @@ The template details the sections that can be used in a manuscript. Note that th
 
 \section{Introduction}
 
-The introduction should briefly place the study in a broad context and highlight why it is important. It should define the purpose of the work and its significance. The current state of the research field should be reviewed carefully and key publications cited. Please highlight controversial and diverging hypotheses when necessary. Finally, briefly mention the main aim of the work and highlight the principal conclusions. As far as possible, please keep the introduction comprehensible to scientists outside your particular field of research. Citing a journal paper \cite{ref-journal}. Now citing a book reference \cite{ref-book1,ref-book2} or other reference types \cite{ref-unpublish,ref-communication,ref-proceeding}. Please use the command \citep{ref-thesis,ref-url} for the following MDPI journals, which use author--date citation: Administrative Sciences, Arts, Econometrics, Economies, Genealogy, Humanities, IJFS, Journal of Intelligence, Journalism and Media, JRFM, Languages, Laws, Religions, Risks, Social Sciences, Literature.
+The introduction should  \cite{LAMA2021e07419}, \cite{KAVAKIOTIS2017104}, \cite{kopitar2020early}, \cite{Howlader}, \cite{ijerph18063317}, \cite{Lai}, \cite{fazakis}, \cite{Zou}, \cite{DeSilva}, \cite{Dinh}, \cite{zhang}, \cite{Fregoso}, \cite{Xiong}, \cite{Rufo}, \cite{Benita}, \cite{Dritsas}  briefly place the study in a broad context and highlight why it is important. It should define the purpose of the work and its significance. The current state of the research field should be reviewed carefully and key publications cited. Please highlight controversial and diverging hypotheses when necessary. Finally, briefly mention the main aim of the work and highlight the principal conclusions. As far as possible, please keep the introduction comprehensible to scientists outside your particular field of research. Citing a journal paper. Now citing a book reference  or other reference types . Please use the command  for the following MDPI journals, which use author--date citation: Administrative Sciences, Arts, Econometrics, Economies, Genealogy, Humanities, IJFS, Journal of Intelligence, Journalism and Media, JRFM, Languages, Laws, Religions, Risks, Social Sciences, Literature.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Materials and Methods}
+\section{Related Work}
+As mentioned before, the applications of Statistical Analysis and 
+Machine Learning in healthcare and more specifically in diabetes 
+condition  have demonstrated a steady rise in the last two decades, 
+since the development of corresponding programming frameworks have 
+enabled the easy storage, collection, processing, analysis of the 
+massively available data quantity and employment of statistical and
+Machine Learning models \cite{frank2005weka, scikit-learn,  
+seabold2010statsmodels}. Regarding diabetes research field, the 
+literature deals with the  identification of diabetic people, early or
+long term (2-10 years) prognosis and diabetes complications
+prediction or identification. Our literature review is focused on
+relatively new research articles or systematic reviews which are 
+related with the context of our article e.g prediction of diabetes
+mellitus or prediabetes utilizing demographic, anthropometric,
+biometric, laboratory, nutritional, medical history, etc. data as
+input features. The first mathematical approaches  over diabetes 
+issue consisted of statistical risk scores exploiting questionnaires
+filled by waves from the participants. Some of the famest risk scores
+are Leicester Risk Assessment Score\cite{gray} developed by Leicester 
+University and FINDRISC \cite{lindstrom} developed by University of 
+Helsinki. The former utilizing a Logistic Regression model, take into account 
+age, ethnicity, sex, first degree family history of diabetes, antihypertensive 
+therapy or history of hypertension, waist circumference and BMI to predict 
+current impaired glucose regulation or diabetes mellitus, achieving an AUC 
+metric of 72\% and the latter -also exploited Logistic Regression-uses gender, 
+age, BMI, use of blood pressure medication, history of high blood glucose, 
+physical activity, daily  consumption of vegetables, fruits or berries and 
+family history of diabetes to predict a 10-year development achieving an AUC 
+metric of 86\%. There are also numerous researches that deal with deep learning
+and  more specifically with image recognition for the classification of 
+diabetic retinopathy, which is a typical complication and very well studied 
+in the research field, using images from eye bulb as input 
+\cite{Fregoso,KAVAKIOTIS2017104}. We can observe at a first glance two variances of 
+diabetes studies. The Leicster Risk aims to identify the current health condition, 
+while FINDRISC tries to predict a long term prevalence.Another diabetes complications
+studies utilizing Machine Learning and Deep Learning include neuropathy and nephropathy 
+\cite{Fregoso,KAVAKIOTIS2017104}. Apart from classification 
+problems there are also regression methods which are exploited 
+for the prediction of Fasting Plasma Glycose or HbA1c levels, 
+such biomarkers that are the best indicators of abnormal 
+glycose regulation and consequently diabetes  mellitus presence 
+\cite{Fregoso,KAVAKIOTIS2017104,kopitar2020early}.
+Delving into our main purpose whi
 
+
+
+\section{Materials and Methods}
 Materials and Methods should be described with sufficient details to allow others to replicate and build on published results. Please note that publication of your manuscript implicates that you must make all materials, data, computer code, and protocols associated with the publication available to readers. Please disclose at the submission stage any restrictions on the availability of materials or information. New methods and protocols should be described in detail while well-established methods can be briefly described and appropriately cited.
 
 Research manuscripts reporting large datasets that are deposited in a publicly avail-able database should specify where the data have been deposited and provide the relevant accession numbers. If the accession numbers have not yet been obtained at the time of submission, please state that they will be provided during review. They must be provided prior to publication.
@@ -399,37 +447,11 @@ All appendix sections must be cited in the main text. In the appendices, Figures
 %=====================================
 % References, variant A: external bibliography
 %=====================================
-%\bibliography{your_external_BibTeX_file}
+\bibliography{references.bib}
 
 %=====================================
 % References, variant B: internal bibliography
 %=====================================
-\begin{thebibliography}{999}
-% Reference 1
-\bibitem[Author1(year)]{ref-journal}
-Author~1, T. The title of the cited article. {\em Journal Abbreviation} {\bf 2008}, {\em 10}, 142--149.
-% Reference 2
-\bibitem[Author2(year)]{ref-book1}
-Author~2, L. The title of the cited contribution. In {\em The Book Title}; Editor 1, F., Editor 2, A., Eds.; Publishing House: City, Country, 2007; pp. 32--58.
-% Reference 3
-\bibitem[Author3(year)]{ref-book2}
-Author 1, A.; Author 2, B. \textit{Book Title}, 3rd ed.; Publisher: Publisher Location, Country, 2008; pp. 154--196.
-% Reference 4
-\bibitem[Author4(year)]{ref-unpublish}
-Author 1, A.B.; Author 2, C. Title of Unpublished Work. \textit{Abbreviated Journal Name} year, \textit{phrase indicating stage of publication (submitted; accepted; in press)}.
-% Reference 5
-\bibitem[Author5(year)]{ref-communication}
-Author 1, A.B. (University, City, State, Country); Author 2, C. (Institute, City, State, Country). Personal communication, 2012.
-% Reference 6
-\bibitem[Author6(year)]{ref-proceeding}
-Author 1, A.B.; Author 2, C.D.; Author 3, E.F. Title of presentation. In Proceedings of the Name of the Conference, Location of Conference, Country, Date of Conference (Day Month Year); Abstract Number (optional), Pagination (optional).
-% Reference 7
-\bibitem[Author7(year)]{ref-thesis}
-Author 1, A.B. Title of Thesis. Level of Thesis, Degree-Granting University, Location of University, Date of Completion.
-% Reference 8
-\bibitem[Author8(year)]{ref-url}
-Title of Site. Available online: URL (accessed on Day Month Year).
-\end{thebibliography}
 
 % If authors have biography, please use the format below
 %\section*{Short Biography of Authors}

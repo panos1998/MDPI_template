@@ -3,7 +3,7 @@
 
 %=================================================================
 \documentclass[journal,article,submit,pdftex,moreauthors]{Definitions/mdpi}
-\renewcommand{\linenumbers}{}
+%\renewcommand{\linenumbers}{}
 \usepackage{comment}
 % For posting an early version of this manuscript as a preprint, you may use "preprints" as the journal and change "submit" to "accept". The document class line would be, e.g., \documentclass[preprints,article,accept,moreauthors,pdftex]{mdpi}. This is especially recommended for submission to arXiv, where line numbers should be removed before posting. For preprints.org, the editorial staff will make this change immediately prior to posting.
 
@@ -169,14 +169,14 @@ Machine Learning models \cite{frank2005weka, scikit-learn,
 seabold2010statsmodels}. Regarding diabetes research field, the 
 literature deals with the  identification of diabetic people, early or
 long term (2-10 years) prognosis and diabetes complications
-prediction or identification. Our literature review is focused on
+prediction or identification. \par Our literature review is focused on
 relatively new research articles or systematic reviews which are 
 related with the context of our article e.g prediction of diabetes
 mellitus or prediabetes utilizing demographic, anthropometric,
 biometric, laboratory, nutritional, medical history, etc. data as
 input features. The first mathematical approaches  over diabetes 
 issue consisted of statistical risk scores exploiting questionnaires
-filled by waves from the participants. Some of the famest risk scores
+filled by waves from the participants. Some of the famous ones risk scores
 are Leicester Risk Assessment Score\cite{gray} developed by Leicester 
 University and FINDRISC \cite{lindstrom} developed by University of 
 Helsinki. The former utilizing a Logistic Regression model, take into account 
@@ -187,21 +187,44 @@ metric of 72\% and the latter -also exploited Logistic Regression-uses gender,
 age, BMI, use of blood pressure medication, history of high blood glucose, 
 physical activity, daily  consumption of vegetables, fruits or berries and 
 family history of diabetes to predict a 10-year development achieving an AUC 
-metric of 86\%. There are also numerous researches that deal with deep learning
+metric of 86\%. We can observe at a first glance two variances of 
+diabetes studies. The Leicster Risk aims to identify the current health condition, 
+while FINDRISC tries to predict a long term prevalence.
+There are also numerous researches that deal with deep learning
 and  more specifically with image recognition for the classification of 
 diabetic retinopathy, which is a typical complication and very well studied 
 in the research field, using images from eye bulb as input 
-\cite{Fregoso,KAVAKIOTIS2017104}. We can observe at a first glance two variances of 
-diabetes studies. The Leicster Risk aims to identify the current health condition, 
-while FINDRISC tries to predict a long term prevalence.Another diabetes complications
+\cite{Fregoso,KAVAKIOTIS2017104}. Another diabetes complications
 studies utilizing Machine Learning and Deep Learning include neuropathy and nephropathy 
 \cite{Fregoso,KAVAKIOTIS2017104}. Apart from classification 
 problems there are also regression methods which are exploited 
 for the prediction of Fasting Plasma Glycose or HbA1c levels, 
-such biomarkers that are the best indicators of abnormal 
+i.e. biomarkers that are the best indicators of abnormal 
 glycose regulation and consequently diabetes  mellitus presence 
 \cite{Fregoso,KAVAKIOTIS2017104,kopitar2020early}.
-Delving into our main purpose whi
+\par Delving more into literature that is more relevant with the purpose of this 
+study we can observe an adequate quantity of high quality articles which will help
+to understand a principal methodology in order to identify or predict diabetes 
+development. Next, the chosen papers will be clustered based on their purpose, their key
+methodologies will be in a more detailed context described and also each other compared
+for advantages and disadvantages.
+\par The detection of diabetes is studied in \cite{Howlader}. The dataset
+used is PIMA from UCI repository \cite{Dua:2019}. First, during the feature
+selection procedure, methods like information gain, gain ratio, gini index,
+ANOVA, $\chi^2$ test, an extension of Relief, correlation, fast correlation
+and filter subset evaluation where employed. Glucose levels, BMI, diabetes
+pedigree function and age was identified as the best features on average
+from the aforementioned techniques. Then, a variety of models was trained
+and tested on the different feature subsets derived from the feature
+selection techniques using 10 fold cross validation. The models probed
+were GAMBoost, regularized logistic regression, penalized multinomial
+regression, Bayesian generalized linear model, penalized logistic regression,
+generalized linear model, sparse distance weighted discrimination,
+generalized boosted regression model and  Naive Bayes. Generalized additive
+using LOESS yeld the best AUC 85.36\% and achieved Sensitivity, Specificity
+86\%, 60\%.
+
+
 
 
 

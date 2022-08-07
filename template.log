@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.7.9)  6 AUG 2022 23:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.7.9)  8 AUG 2022 00:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1154,6 +1154,15 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 8.33606pt on input line 146.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 5.21004pt on input line 146.
+LaTeX Font Info:    Trying to load font information for T1+cmss on input line 146.
+(C:\Users\panos\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmss.fd
+File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmss' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 20.0pt, for example:
@@ -1179,18 +1188,18 @@ Package epstopdf Info: Source file: <Definitions/logo-mdpi.eps>
 (epstopdf)                    date: 2022-07-15 19:31:17
 (epstopdf)                    size: 43966 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Definitions/logo-mdpi-eps-converted-to.pdf Definitions/logo-mdpi.eps>
-(epstopdf)             \includegraphics on input line 246.
+(epstopdf)             \includegraphics on input line 269.
 Package epstopdf Info: Output file is already uptodate.
 File: Definitions/logo-mdpi-eps-converted-to.pdf Graphic file (type pdf)
 <use Definitions/logo-mdpi-eps-converted-to.pdf>
-Package pdftex.def Info: Definitions/logo-mdpi-eps-converted-to.pdf  used on input line 246.
+Package pdftex.def Info: Definitions/logo-mdpi-eps-converted-to.pdf  used on input line 269.
 (pdftex.def)             Requested size: 298.75394pt x 196.9437pt.
 
 
-Package array Warning: Column C is already defined on input line 253.
+Package array Warning: Column C is already defined on input line 276.
 
 
-Package array Warning: Column C is already defined on input line 268.
+Package array Warning: Column C is already defined on input line 291.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1207,11 +1216,11 @@ Package epstopdf Info: Source file: <Definitions/logo-mdpi.eps>
 (epstopdf)                    date: 2022-07-15 19:31:17
 (epstopdf)                    size: 43966 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Definitions/logo-mdpi-eps-converted-to.pdf Definitions/logo-mdpi.eps>
-(epstopdf)             \includegraphics on input line 332.
+(epstopdf)             \includegraphics on input line 355.
 Package epstopdf Info: Output file is already uptodate.
 File: Definitions/logo-mdpi-eps-converted-to.pdf Graphic file (type pdf)
 <use Definitions/logo-mdpi-eps-converted-to.pdf>
-Package pdftex.def Info: Definitions/logo-mdpi-eps-converted-to.pdf  used on input line 332.
+Package pdftex.def Info: Definitions/logo-mdpi-eps-converted-to.pdf  used on input line 355.
 (pdftex.def)             Requested size: 384.1122pt x 253.21382pt.
 
 
@@ -1222,10 +1231,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-4.18796pt}.
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 411--411
-
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 16.18796pt, for example:
@@ -1234,8 +1239,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-4.18796pt}.
 
 [5]
+Underfull \hbox (badness 10000) in paragraph at lines 434--434
 
-Package array Warning: Column C is already defined on input line 424.
+ []
+
+
+Package array Warning: Column C is already defined on input line 447.
 
 (template.bbl
 
@@ -1259,17 +1268,17 @@ Package rerunfilecheck Info: File `template.out' has not changed.
 (rerunfilecheck)             Checksum: 446A4B52780E0F96F0837687D6F60687;1980.
  ) 
 Here is how much of TeX's memory you used:
- 31827 strings out of 478354
- 599627 string characters out of 2837119
- 924209 words of memory out of 3000000
- 49136 multiletter control sequences out of 15000+600000
- 537993 words of font info for 404 fonts, out of 8000000 for 9000
+ 31865 strings out of 478354
+ 600557 string characters out of 2837119
+ 927278 words of memory out of 3000000
+ 49164 multiletter control sequences out of 15000+600000
+ 540397 words of font info for 407 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 123i,15n,120p,4409b,718s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Users/panos/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/panos/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/panos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/panos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/panos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on template.pdf (7 pages, 201169 bytes).
+ 123i,15n,120p,4409b,716s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\panos\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0500.pk>{C:/Users/panos/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/panos/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/panos/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmri.pfb><C:/Users/panos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/panos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/panos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on template.pdf (7 pages, 212329 bytes).
 PDF statistics:
- 251 PDF objects out of 1000 (max. 8388607)
- 55 named destinations out of 1000 (max. 500000)
- 95388 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 278 PDF objects out of 1000 (max. 8388607)
+ 56 named destinations out of 1000 (max. 500000)
+ 101532 words of extra memory for PDF output out of 106986 (max. 10000000)
 

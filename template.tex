@@ -208,19 +208,19 @@ to understand a principal methodology in order to identify or predict diabetes
 development. Next, the chosen papers will be clustered based on their purpose, their key
 methodologies will be in a more detailed context described and also each other compared
 for advantages and disadvantages.
-\par The detection of diabetes is studied in \cite{Howlader}. The dataset
-used is PIMA from UCI repository \cite{Dua:2019}. First, during the feature
-selection procedure, methods like information gain, gain ratio, gini index,
-ANOVA, $\chi^2$ test, an extension of Relief, correlation, fast correlation
-and filter subset evaluation where employed. Glucose levels, BMI, diabetes
-pedigree function and age was identified as the best features on average
-from the aforementioned techniques. Then, a variety of models was trained
-and tested on the different feature subsets derived from the feature
-selection techniques using 10 fold cross validation. The models probed
+\par The current-state detection of diabetes is studied in \cite{Howlader,kopitar2020early}.
+In \cite{Howlader} the dataset used is PIMA from UCI repository \cite{Dua:2019} 
+with target variable the diabetes presence. First, during the feature selection 
+procedure, methods like information gain, gain ratio, gini index,ANOVA, $\chi^2$ test, 
+an extension of Relief, correlation, fast correlation and filter subset evaluation 
+where employed. Glucose levels, BMI, diabetes pedigree function and age was identified 
+as the best features on average from the aforementioned techniques. Then, a variety of 
+models was trained and tested on the different feature subsets derived from the 
+feature selection techniques using 10 fold cross validation. The models probed
 were GAMBoost, regularized logistic regression, penalized multinomial
 regression, Bayesian generalized linear model, penalized logistic regression,
 generalized linear model, sparse distance weighted discrimination,
-generalized boosted regression model and  Naive Bayes. Generalized additive
+generalized boosted regression model and  Naive Bayes. Generalized additive model
 using LOESS yeld the best AUC 85.36\% and achieved Sensitivity, Specificity
 86\%, 60\%.
 

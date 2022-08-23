@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex template"] 1659904848 "template.aux" "template.bbl" "template" 1659906455
+["bibtex template"] 1659986164 "template.aux" "template.bbl" "template" 1659986448
   "./Definitions/mdpi.bst" 1650864718 23669 4df3338ca9d7b1eb23a83103e0cc349a ""
   "references.bib" 1659902852 10112 a612edebe9b4e959af2434bdc7bf41df ""
-  "template.aux" 1659906454 7711 3ff62946d75d82e412804489429485c0 "pdflatex"
+  "template.aux" 1659986447 7748 17c33d56b2c0853b06d721514bbcd048 "pdflatex"
   (generated)
   "template.bbl"
   "template.blg"
-["pdflatex"] 1659906447 "c:/Users/panos/Documents/Διπλωματική/journal/MDPI_template/template.tex" "template.pdf" "template" 1659906455
+["pdflatex"] 1659986442 "c:/Users/panos/Documents/Διπλωματική/journal/MDPI_template/template.tex" "template.pdf" "template" 1659986448
   "C:/Users/panos/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1659347190 116366 2a4908485e2da1190aed4ebacf279728 ""
   "C:/Users/panos/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecss0500.pk" 1657895732 10824 38ec1a64493a188047d3e56e710a4218 ""
   "C:/Users/panos/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1657315882 10325998 166a1f58371dbae9025d615641b845a6 ""
@@ -249,12 +249,12 @@
   "Definitions/logo-mdpi.eps" 1532230432 736786 4711706bb26e06261526b11ff3bf4ccd ""
   "Definitions/logo-orcid.pdf" 1640022376 12671 39a20ba789123aa897c7efc569fb5270 ""
   "Definitions/mdpi.cls" 1659818305 51408 0c127a5f0717585bed25c87353100390 ""
-  "c:/Users/panos/Documents/Διπλωματική/journal/MDPI_template/template.tex" 1659906445 35308 565b1a34ff710753e74b6c2166fab6b5 ""
+  "c:/Users/panos/Documents/Διπλωματική/journal/MDPI_template/template.tex" 1659986441 35413 057c73cbb5e661f0b1198d1849ea8d80 ""
   "ezgif.com-gif-maker (1).png" 1657895941 6693 cc25854ebb5f4b4be458c25ea5851490 ""
-  "template.aux" 1659906454 7711 3ff62946d75d82e412804489429485c0 "pdflatex"
-  "template.bbl" 1659904848 9085 b6d8dbadb6489fb66e8c48b34b4ddb74 "bibtex template"
-  "template.out" 1659906454 1980 446a4b52780e0f96f0837687d6f60687 "pdflatex"
-  "template.tex" 1659906445 35308 565b1a34ff710753e74b6c2166fab6b5 ""
+  "template.aux" 1659986447 7748 17c33d56b2c0853b06d721514bbcd048 "pdflatex"
+  "template.bbl" 1659986164 9085 b6d8dbadb6489fb66e8c48b34b4ddb74 "bibtex template"
+  "template.out" 1659986447 1980 446a4b52780e0f96f0837687d6f60687 "pdflatex"
+  "template.tex" 1659986441 35413 057c73cbb5e661f0b1198d1849ea8d80 ""
   (generated)
   "template.aux"
   "template.log"

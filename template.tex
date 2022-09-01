@@ -71,7 +71,7 @@
 
 %=================================================================
 % Full title of the paper (Capitalized)
-\Title{Determining risk of diabetes and cardiovascular diseases occurrence utilizing data via smart devices}
+\Title{A review on trending Machine Learning techniques for type 2 diabetes.}
 
 % MDPI internal command: Title for citation in the left column
 \TitleCitation{Title}
@@ -158,7 +158,14 @@ The template details the sections that can be used in a manuscript. Note that th
 
 The introduction should  \cite{LAMA2021e07419}, \cite{KAVAKIOTIS2017104}, \cite{kopitar2020early}, \cite{Howlader}, \cite{ijerph18063317}, \cite{Lai}, \cite{fazakis}, \cite{Zou}, \cite{DeSilva}, \cite{Dinh}, \cite{zhang}, \cite{Fregoso}, \cite{Xiong}, \cite{Rufo}, \cite{Benita}, \cite{Dritsas}  briefly place the study in a broad context and highlight why it is important. It should define the purpose of the work and its significance. The current state of the research field should be reviewed carefully and key publications cited. Please highlight controversial and diverging hypotheses when necessary. Finally, briefly mention the main aim of the work and highlight the principal conclusions. As far as possible, please keep the introduction comprehensible to scientists outside your particular field of research. Citing a journal paper. Now citing a book reference  or other reference types . Please use the command  for the following MDPI journals, which use author--date citation: Administrative Sciences, Arts, Econometrics, Economies, Genealogy, Humanities, IJFS, Journal of Intelligence, Journalism and Media, JRFM, Languages, Laws, Religions, Risks, Social Sciences, Literature.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Related Work}
+\section{Diabetes}
+Maybe some details about diabetes
+\section{Machine Learning Background}
+Maybe some details about Machine Learning Theory.
+\section{Relevant Sections}
+\subsection{Related Work}
+Here we will review the two referenced review paper.
+\subsection{Machine Learning applications in diabetes}
 As mentioned before, the applications of Statistical Analysis and 
 Machine Learning in healthcare and more specifically in diabetes 
 condition  have demonstrated a steady rise in the last two decades, 
@@ -169,7 +176,12 @@ Machine Learning models \cite{frank2005weka, scikit-learn,
 seabold2010statsmodels}. Regarding diabetes research field, the 
 literature deals with the  identification of diabetic people, early or
 long term (2-10 years) prognosis and diabetes complications
-prediction or identification. \par Our literature review is focused on
+prediction or identification. Considering the prevention of diabetes, the ultimate
+goal is the extraction of features (e.g markers) which are relevant to diabetes
+occurrence. Then, in case that  these features are configurable, the patient could 
+have available some suggestions to apply in his lifestyle or diet in order to 
+minimize the risk of developing diabetes.   
+ \par Our literature review is focused on
 relatively new research articles or systematic reviews which are 
 related with the context of our article e.g prediction of diabetes
 mellitus or prediabetes utilizing demographic, anthropometric,
@@ -208,27 +220,36 @@ to understand a principal methodology in order to identify or predict diabetes
 development. Next, the chosen papers will be clustered based on their purpose, their key
 methodologies will be in a more detailed context described and also each other compared
 for advantages and disadvantages.
-\par The current-state detection of diabetes is studied in \cite{Howlader,kopitar2020early}.
-In \cite{Howlader} the dataset used is PIMA from UCI repository \cite{Dua:2019} 
-with target variable the diabetes presence. First, during the feature selection 
-procedure, methods like information gain, gain ratio, gini index,ANOVA, $\chi^2$ test, 
-an extension of Relief, correlation, fast correlation and filter subset evaluation 
-where employed. Glucose levels, BMI, diabetes pedigree function and age was identified 
-as the best features on average from the aforementioned techniques. Then, a variety of 
-models was trained and tested on the different feature subsets derived from the 
-feature selection techniques using 10 fold cross validation. The models probed
-were GAMBoost, regularized logistic regression, penalized multinomial
-regression, Bayesian generalized linear model, penalized logistic regression,
-generalized linear model, sparse distance weighted discrimination,
-generalized boosted regression model and  Naive Bayes. Generalized additive model
-using LOESS yeld the best AUC 85.36\% and achieved Sensitivity, Specificity
-86\%, 60\%.
+\par The current-state detection of diabetes, in the sense that the class variable and the
+independent features values are registered the same time is studied in \cite{Howlader,
+kopitar2020early, Lai, Zou, Dinh, zhang, Xiong, Rufo, Benita,  Dritsas}.
+In \cite{Howlader} the dataset used is PIMA from UCI repository \cite{Dua:2019}, 
+containing 768 records of healthy (500) and diabetic (268) Arizonan women over 21 
+years old with target variable the diabetes presence. First, during the feature 
+selection procedure, methods like information gain, gain ratio, gini index,ANOVA, 
+$\chi^2$ test, an extension of Relief, correlation, fast correlation and filter 
+subset evaluation where employed. Glucose levels, BMI, diabetes pedigree function 
+and age was identified as the best features on average from the aforementioned 
+techniques. Then, a variety of models was trained and tested on the different feature
+subsets derived from the feature selection techniques using 10 fold cross validation.
+The models probed were GAMBoost, regularized logistic regression, penalized 
+multinomial regression, Bayesian generalized linear model, penalized logistic 
+regression, generalized linear model, sparse distance weighted discrimination,
+generalized boosted regression model and  Naive Bayes. The results showed that
+there is not a particular model that yields the highest metrics (Accuracy, 
+Kappa Statistics, AUC, Sensitivity, Specificity, Log loss) simultaneously.
+Generalized additive model using LOESS yeld the best score in Friedman test,
+achieving AUC 85.36\% and Sensitivity, Specificity 86\%, 60\% respectively. They
+concluded that the aforementioned feature subset and Machine Learning model could
+assist physicians and researchers to predict T2D, however this model should be 
+assessed in bigger datasets  for detecting new potentially crucial features and 
+compared with other high performance models.
 
 
 
 
 
-\section{Materials and Methods}
+%\section{Materials and Methods}
 Materials and Methods should be described with sufficient details to allow others to replicate and build on published results. Please note that publication of your manuscript implicates that you must make all materials, data, computer code, and protocols associated with the publication available to readers. Please disclose at the submission stage any restrictions on the availability of materials or information. New methods and protocols should be described in detail while well-established methods can be briefly described and appropriately cited.
 
 Research manuscripts reporting large datasets that are deposited in a publicly avail-able database should specify where the data have been deposited and provide the relevant accession numbers. If the accession numbers have not yet been obtained at the time of submission, please state that they will be provided during review. They must be provided prior to publication.
@@ -239,7 +260,7 @@ This is an example of a quote.
 \end{quote}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Results}
+%\section{Results}
 
 This section may be divided by subheadings. It should provide a concise and precise description of the experimental results, their interpretation as well as the experimental conclusions that can be drawn.
 \subsection{Subsection}
@@ -382,7 +403,7 @@ Authors should discuss the results and how they can be interpreted from the pers
 This section is not mandatory, but can be added to the manuscript if the discussion is unusually long or complex.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Patents}
+\section{Future Directions}
 
 This section is not mandatory, but may be added if there are patents resulting from the work reported in this manuscript.
 

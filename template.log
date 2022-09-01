@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.7.9)  8 AUG 2022 22:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.7.9)  2 SEP 2022 00:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1119,7 +1119,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 146--146
  []
 
 Package marginnote Info: xpos seems to be 167.01753pt on input line 146.
-<ezgif.com-gif-maker (1).png, id=75, 652.4375pt x 140.525pt>
+<ezgif.com-gif-maker (1).png, id=83, 652.4375pt x 140.525pt>
 File: ezgif.com-gif-maker (1).png Graphic file (type png)
 <use ezgif.com-gif-maker (1).png>
 Package pdftex.def Info: ezgif.com-gif-maker (1).png  used on input line 146.
@@ -1136,12 +1136,12 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Definitions/logo-mdpi-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Definitions/logo-mdpi-eps-converted-to.pdf, id=77, 88.33pt x 58.2175pt>
+<Definitions/logo-mdpi-eps-converted-to.pdf, id=85, 88.33pt x 58.2175pt>
 File: Definitions/logo-mdpi-eps-converted-to.pdf Graphic file (type pdf)
 <use Definitions/logo-mdpi-eps-converted-to.pdf>
 Package pdftex.def Info: Definitions/logo-mdpi-eps-converted-to.pdf  used on input line 146.
 (pdftex.def)             Requested size: 43.16885pt x 28.45274pt.
-<Definitions/logo-orcid.pdf, id=79, 102.3825pt x 102.3825pt>
+<Definitions/logo-orcid.pdf, id=87, 102.3825pt x 102.3825pt>
 File: Definitions/logo-orcid.pdf Graphic file (type pdf)
 <use Definitions/logo-orcid.pdf>
 Package pdftex.def Info: Definitions/logo-orcid.pdf  used on input line 146.
@@ -1188,18 +1188,15 @@ Package epstopdf Info: Source file: <Definitions/logo-mdpi.eps>
 (epstopdf)                    date: 2022-07-15 19:31:17
 (epstopdf)                    size: 43966 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Definitions/logo-mdpi-eps-converted-to.pdf Definitions/logo-mdpi.eps>
-(epstopdf)             \includegraphics on input line 269.
+(epstopdf)             \includegraphics on input line 290.
 Package epstopdf Info: Output file is already uptodate.
 File: Definitions/logo-mdpi-eps-converted-to.pdf Graphic file (type pdf)
 <use Definitions/logo-mdpi-eps-converted-to.pdf>
-Package pdftex.def Info: Definitions/logo-mdpi-eps-converted-to.pdf  used on input line 269.
+Package pdftex.def Info: Definitions/logo-mdpi-eps-converted-to.pdf  used on input line 290.
 (pdftex.def)             Requested size: 298.75394pt x 196.9437pt.
 
 
-Package array Warning: Column C is already defined on input line 276.
-
-
-Package array Warning: Column C is already defined on input line 291.
+Package array Warning: Column C is already defined on input line 297.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1209,6 +1206,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-4.18796pt}.
 
 [3]
+
+Package array Warning: Column C is already defined on input line 312.
+
 Package epstopdf Info: Source file: <Definitions/logo-mdpi.eps>
 (epstopdf)                    date: 2018-07-22 06:33:52
 (epstopdf)                    size: 736786 bytes
@@ -1216,13 +1216,12 @@ Package epstopdf Info: Source file: <Definitions/logo-mdpi.eps>
 (epstopdf)                    date: 2022-07-15 19:31:17
 (epstopdf)                    size: 43966 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Definitions/logo-mdpi-eps-converted-to.pdf Definitions/logo-mdpi.eps>
-(epstopdf)             \includegraphics on input line 355.
+(epstopdf)             \includegraphics on input line 376.
 Package epstopdf Info: Output file is already uptodate.
 File: Definitions/logo-mdpi-eps-converted-to.pdf Graphic file (type pdf)
 <use Definitions/logo-mdpi-eps-converted-to.pdf>
-Package pdftex.def Info: Definitions/logo-mdpi-eps-converted-to.pdf  used on input line 355.
+Package pdftex.def Info: Definitions/logo-mdpi-eps-converted-to.pdf  used on input line 376.
 (pdftex.def)             Requested size: 384.1122pt x 253.21382pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 16.18796pt, for example:
@@ -1239,12 +1238,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-4.18796pt}.
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 434--434
+Underfull \hbox (badness 10000) in paragraph at lines 455--455
 
  []
 
 
-Package array Warning: Column C is already defined on input line 447.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 16.18796pt, for example:
+(fancyhdr)                \setlength{\headheight}{16.18796pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-4.18796pt}.
+
+[6]
+
+Package array Warning: Column C is already defined on input line 468.
 
 (template.bbl
 
@@ -1254,7 +1261,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-4.18796pt}.
 
-[6]) 
+[7]) 
 AED: lastpage setting LastPage
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1263,22 +1270,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-4.18796pt}.
 
-[7] (template.aux)
+[8] (template.aux)
 Package rerunfilecheck Info: File `template.out' has not changed.
-(rerunfilecheck)             Checksum: 446A4B52780E0F96F0837687D6F60687;1980.
+(rerunfilecheck)             Checksum: 4A6C710A5C9CE8F3377071E921D63F44;2487.
  ) 
 Here is how much of TeX's memory you used:
- 31871 strings out of 478354
- 600605 string characters out of 2837119
- 927280 words of memory out of 3000000
- 49164 multiletter control sequences out of 15000+600000
+ 31876 strings out of 478354
+ 600677 string characters out of 2837119
+ 935248 words of memory out of 3000000
+ 49166 multiletter control sequences out of 15000+600000
  540715 words of font info for 411 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 123i,15n,120p,4409b,716s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 123i,15n,120p,4409b,740s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\panos\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0500.pk>{C:/Users/panos/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/panos/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/panos/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmri.pfb><C:/Users/panos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/panos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/panos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on template.pdf (7 pages, 212797 bytes).
+Output written on template.pdf (8 pages, 216787 bytes).
 PDF statistics:
- 280 PDF objects out of 1000 (max. 8388607)
- 56 named destinations out of 1000 (max. 500000)
- 101532 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 298 PDF objects out of 1000 (max. 8388607)
+ 59 named destinations out of 1000 (max. 500000)
+ 101548 words of extra memory for PDF output out of 106986 (max. 10000000)
 

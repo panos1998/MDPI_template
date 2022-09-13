@@ -243,9 +243,214 @@ achieving AUC 85.36\% and Sensitivity, Specificity 86\%, 60\% respectively. They
 concluded that the aforementioned feature subset and Machine Learning model could
 assist physicians and researchers to predict T2D, however this model should be 
 assessed in bigger datasets  for detecting new potentially crucial features and 
-compared with other high performance models.
+compared with other high performance models. In \cite{Lai}, researchers trained a GBM
+, a Random Forest and a Logistic Regression over a dataset containing 13,309 records
+from healthy and patients. The input features were Age, Gender, FPG, BMI, Triglycerides,
+Systolic pressure and LDL. First, the dataset was split in 80\% training set and
+20\% testing set. Then, a misclassification cost matrix was constructed with a false
+negative-false positive ratio equal to 3/1 and zero cost for correct predictions.
+This cost matrix was used along with AUC as objective functions in order to tune the 
+hyperapameters of the models using 10-fold cross validation. Due to the class imbalance
+the cut-off point of decision boundary was adjusted such that the misclassification cost
+is minimized. After this adjustment, each model with the tuned hyperapameters was 
+trained on the entire training set and finally evaluated in the testing set. The
+best model was GBM with tuned hyperapameters $\textrm{number of trees}=257$, 
+$\textrm{interaction depth}=2$, $\textrm{min samples per leaf}= 75$, 
+$\textrm{learning rate}=0.126$ and $\textrm{threshold=0.24}$ achieving AUC 84.7\%,
+misclassification rate 18.9\%, Sensitivity 71.6\% and Specificity 83.7\%. Similarly,
+the Logistic Regression achieved values of 84\%, 19.6\%, 73,4\% and 82.3\%,
+respectively. For the Random Forest classifier the AUC value was 83.4\%. They 
+summarized suggesting the incorporation of such models to online programms for 
+further assistance of physicians during patient assessments.
 
 
+\par As mentioned before, apart from classification problems, Machine Learning
+can be applied to diabetes through Regression for estimation of predictive
+biomarkers such as FPG (Fasting Plasma Glycose) and revelation of factors that
+relate with the FPG variability. To this end, \cite{kopitar2020early} utilize
+models of three conceptually different families such as boosting, bagging and
+linear regression, because each family has a different capability to detect 
+hidden patterns and important features. The dataset initially consisted of 
+27,050 adults EHRs (Electronic Health Records) with no prior diabetes diagnosis
+between 2014 and 2017. A first propose of the study is to compare the models
+performance against FINDRISC, thus records that have missing values in any of
+the features that included also in FINDRISC, were dropped. Assuming normal
+distribution of the features, outlier detection took part using the formula
+$\overline{X} \pm(3 \times \textrm{SD})$ and each outlier value was marked as
+missing. Then, records and features tha had 50\% or greater percent of missing
+values where dropped. Finally, the remaining missing values were imputed with
+MICE method using Bayesian linear regression for numerical values, logistic   
+regression for binary values and polytomous regression for variables with more
+than two possible values. The preprocessing stage yields a final dataset of 3,723
+records, 58 features and the FPG target variable. These features can be grouped
+in the following four groups: lipid profile lab results (HDL, LDL, total 
+cholesterol and triglycerides), social determinants of health (consumption of 
+alcohol, smoking, dietary habits, stress), cardiovascular variables (blood 
+pressure measurements, atrial fibrillation history) and history of other health
+conditions (stroke, hypertension, colon cancer). As the final step before 
+piping the data into the Machine Learning models, is the partition 
+of the data into 6-months intervals (T6, T12, T18, T24, T30) 
+according to the submission date of each record, thus 5 subdatasets where created
+and each Machine Learning model was trained in each subdataset and validated using
+100 times random sampling with replacement (bootstrap). In each run the remaining
+unselected samples were used to test the model. Linear Regression performed with 
+the lowest Root Mean Squared Error 0.838 (95\% CI 0.814-0.862) trained on only 7 
+features which are common to the FINDRISC. Next, RF achieved a value of 0.842 
+(95\% CI 0.818-0.866), LightGBM 0.846 (95\% CI 0.821-0.871), Glmnet 0.859 
+(95\% CI 0.834-0.884) and XGBoost 0.881 (95\% 0.856-0.907). When the whole dataset
+where available for training and testing, RF performed the lowest RMSE at 0.745 
+(95\% CI 0.733-0.757) followed by Glmnet at 0.747(95\% CI 0.734-0.759), while 
+XGBoost performed the worst value at 0.760 (95\% CI 0.748-0.772). The regression 
+capability of each model was measured through $R^{2}$ coefficient, to measure how
+well the regressor fits the actual FPG value given the input features. For only 6 
+month data available linear model performed the best with an average value of 
+0.310, while RF performed the best for 18 and 30 months data available achieving a 
+mean value of 0.340 and 0.368 respectively. In contrary, XGBoost performed the 
+worst in all three time points (6-18-30 months of available data) achieving a mean
+value of 0.241, 0.293 and 0.343 respectively, despite its general superiority. 
+Apart from the regression capability, the authors tested the classification 
+capability using the cut-off FPG value of 6.1 mmol/L. The best AUC value demonstrated
+by Glmnet at 0.836 on average  through the five time points, while the worst 
+performance model was again XGBoost yielding a value of 0.8142. In terms of AUPRC,
+linear regression performed best with an average value of 0.6948 through the five
+time points, while was the worst model with a value of 0.6576. Finally, the feature 
+importance was assessed for every model through the five time point datasets
+using different metrics (because each model has different structure) like 
+$\beta \textrm{-coefficient}$, permutation importance on MSE or on Accuracy and 
+variance gain. Triglycerides levels was assessed as the most important feature on
+LightGBM, while the remaining  three models have Hyperglycemia history. For the
+next lower-importance features, even if there are some differences in the ranking,
+Age, HDL cholisterol, LDL cholisterol, Total cholisterol, Systolic pressure, Diastolic
+pressure and weight are the in the top 10.  They concluded that, the more data 
+available, the better stability do models have, even if from this research none
+new FPG related feature revealed, apart from those already clinical derived. LightGBM
+performed the most stable results through the multiple evaluations.
+\par The long term diabetes prediction in the sense  that the class variable is filled
+many years after the features are filled, utilizing the baseline-followup method, is 
+studied in \cite{lindstrom, Dritsas}. In \cite{lindstrom} the study examined a cohort
+of 7949 people with known and unknown family history of diabetes. The features involved
+were questionnaires about lifestyle, socioeconomic and psychosocial matters, along
+with measurements of plasma glucose and insulin in an oral glucose
+tolerance test (OGTT), glycosylated haemoglobin (HbA1c), blood pressure,
+weight, height and hip circumference. In the baseline study, T2D
+was diagnosed in 51 women and 66 men, and prediabetes in 219 women
+and 259 men. A $1^{\textrm{st}}$ follow-up study was carried out 8–10 years later,
+and a $2^{\textrm{nd}}$ follow-up about 20 years later, with at least 70\% participation.
+At the $1^{\textrm{st}}$ follow-up, they found 102 women and 171 men with T2D, and
+399 women and 522 men with prediabetes, and at the $2^{\textrm{nd}}$ follow-up 230
+women and 326 men with T2D and 615 women and 522 men with
+prediabetes. Those with diagnosed T2D at the baseline and the $1^{\textrm{st}}$ followup
+were not called to follow-up later. The dataset was partitioned
+in 3 sets a training set, a validation set and a test set. The classifier utilized was Random 
+Forest to predict the individual diabetes type 2 development after 10 years of the measurement.
+SHAP TreeExplainer was used to build an interpretable Machine Learning model, in order to find 
+factors that relate with high or low diabetes risk. Hyperparameter tuning using 5 fold cross 
+validation into the validation set took part in order to find the best hyperparameters set for 
+the Random Forest, having as objective function a combination of AUC and robustness. This
+function is defined as: 
+\begin{equation}
+	S_l=AUC_{l}^{val}\cdot(1-\Theta_{l})
+\end{equation}
+Where
+\begin{equation}
+	\Theta_{l}=\mu(\sigma(X_{ijkl}^{'}))
+\end{equation} 
+and 
+\begin{equation}
+	X_{ijkl}^{'}=\frac{X_{ijkl}-\mu(X_{ijkl})}{\sigma(X_{ijkl})}
+\end{equation}.
+$X_{ijkl}$ is a tensor of SHAP values per person i, feature j, cross
+validation split k and parameter set l. Then $X_{ijkl}^{'}$ is the standardized
+tensor with zero mean and unit variance. Finally, $\Theta_{l}$ is the mean
+variance of o SHAP values per hyperapameters set l. The best hyperparameters
+set was: $\textrm{number of estimators} = 120, \textrm{min samples leaf}=125, \textrm{max depth}=4 \textrm{ and
+number of models} = 30 $, achieving a robustness value of $ S=0.630 $ and
+a value of AUC at $0.779$. According to the SHAP values analysis, the features that increase
+the risk are: family history of diabetes, high waist-hip  ratio, high BMI, increased Systolic
+pressure, increased Diastolic pressure, low physical activity and male gender. On the other
+hand the features that decrease the risk are: exercise, higher socioeconomic strata and lower
+age. Also with the help of a SHAP force plot, personalized risk profiles where extracted in order
+to assess the individual risk score, which is called \textit{output value} and  revealed 
+the features that have the largest impact in the individual risk score. Finally, they suggest 
+this method to be probed in the primary health care in order to improve diabetes care.
+In \cite{ijerph18063317} a dataset of 500,000 records from Hanaro medical foundation containing 
+diagnostic results and questionnairies, was utilized to conduct a multi classification 
+experiment for prediction of prediabetic,  diabetic and normal people in the following 1 year. 
+People included in the dataset are those who had at least two years of continuous annual medical
+check-ups during the follow-up period, however those who had been diagnosed with diabetes, 
+hyperlipidimia, hypertension or took medication for those diseases were excluded. During the 
+preprocessing step, exclusion of records with at least one null value, employment of majority 
+undersampling and Synthetic Minority Oversampling techniques, ANOVA and  chi-square test, as well as
+Recursive Feature Elimination using an impurity metric to rank feature importance, were conducted.
+The selected features were fasting plasma glucose (FPG), body mass index (BMI), Gamma
+glutamyl transpeptidase (gamma-GTP), triglycerides, sex, age, uric acid, hemoglobin A1c
+(HbA1c), smoking, drinking, physical activity, and family history. Smoking status was
+divided into “currently smoking regularly”, “never smoked” and “had quit smoking”.
+Physical activity indicates the number of days the subject has engaged in physical exercise
+such as running, hillwalking, climbing stairs, jump roping for a minimum of 20 min. Family
+history with diabetes considers only parents and siblings diagnosed with T2D and drinking
+indicates the number of days the subject consumed alcoholic drinks. Then, RF, XGBoost and SVM were
+trained and tested on the dataset. First, two 10-fold cross validation grid searches for 
+hyperaparemeter tunning were employed. The first in a more general grid, but the second focused 
+on the best - more specific neighborhoods of good parameters values derived from the first.
+In addition, a Logistic Regression, a Stacking classifier, a Soft Voting
+classifier and a confusion matrix based classifier were employed. For the testing
+phase, 10-fold cross validation repeated 10 times and the average value for each
+metric such as accuracy, precision, recall, F1-score, MCC and KC was calculated.
+The results shown none significant difference between the models performance. All
+metrics were in the range 0.71-0.75. Then RF, XGBoost and SVM, were trained
+using data from two years, three years and four years before, which where 
+added each one to the previous set. The accuracy performance showed significant 
+improvement for every model. As a final test, the 12-features set was 
+compared to a set of very classic diabetes predictors such as FPG, HbA1c, BMI, age, and
+sex into the different four datasets, which where previously introduced .
+The 10-repetion evaluation of accuracy through the different timepoint datasets
+showed significant superiority of the 12-features subset over the 5-features (
+e.g. using data from the last four years the accuracy values were 0.81 for the
+former feature set and 0.77 for the latter set). The authors concluded that clinicians
+must pay attention to the changes in gamma-GTP, uric acid, and triglycerides over the
+years, as well as these models can work as decision support systems for practioners 
+and diabetes educators.
+In \cite{fazakis}, researchers evaluated a variety of single and ensemble models
+on ELSA dataset to predict type 2 diabetes occurrence. The dataset contains a variety
+of biometric, anthropometric, hematological, lifestyle, sociodemographic and performance 
+index variables. A number of different feature selection techniques were employed
+such as LASSO, correlation and Greedy stepwise. The selected method was Greedy
+stepwise with Naive Bayes and after the addition of some extra features the final
+dataset consisted of 34 input features and the class variable indicating the diabetes
+condition of  the person. Random undersampling was conducted in order to have diabetic
+distribution per age group similar to real life. This yeld a final dataset of 2,331
+records. For the evaluation of the models the procedure consists of creating 
+10 datasets from the existing using stratified train/test split with proportion 
+70/30 respecitively. Logistic Regression, Naive Bayes, Decision Tree, Random Forest,
+Artificial Neural Network, Deep Neural Network and three ensembles of Random Forest
+and Logistic Regression, namely Stacking, Voting and Weighted Voting, were employed.
+Due to class imbalance the method of adjusting threshold were conducted for each
+model having as objective function the $J$, Younden Index, which is the sum of
+specificity and sensitivity. For the Weighted Soft Voting, a biobjective
+optimization problem was solved in order to calculate  the best weights for 
+RF and LR, which maximize the sensitivity and AUC. Indeed the Weighted classifier
+produced the best results in terms of AUC with a value of 0.884. In addition,
+the Sensitivity, Specificity +PV, -PV, +LR, -LR, were 0.856, 0.798, 0.449, 0.967 and
+4.245 respectively. Finally, the concluded that due to the superiority of ensemble 
+models can be embedded into recommendation systems to prevent patients from development
+of diabetes. In \cite{Zou} a physical, 138,000-records dataset containing 
+14 features such as age, pulse rate, breathe, left systolic pressure, right systolic 
+pressure, left diastolic pressure, right diastolic pressure, height, weight, physique
+index, fasting glucose, waistline, LDL and HDL was used. Five subdatasets were created with 
+random sampling in order to train the models five times and then calculate the average 
+performance into a independent testing set using 5 fold cross validation. The models
+which were trained are Random Forest, Decision Tree and a Neural Network. The models
+were evaluated in different subsets of features using feature selection techniques like
+PCA, mRMR, without fasting glycose and only fasting glycose. Using all features every model
+achieved the best accuracy, while excluding fasting glycose trained the worst models. In the 
+first case the accuracy of RF, Decision Tree and Neural network was 0.8084, 0.7853 and 
+0.7841 respectively. Using only fasting glycose as input feature trains the models still better
+than PCA and mRMR techniques, yielding accuracy at 0.7597, 0.761 and 0.7572 for each model
+respectively. They concluded that fasting blood glycose is a very good predictor of diabetes, however
+adding more features gives better performing models. As feature work they propose 
+the extraction of indicators importance and the classification of the speicific diabetes 
+type.  
 
 
 
